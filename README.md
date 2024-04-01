@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-<p align="center">
+<p align="center">b
   <a href="https://dyte.io">
     <img src="https://assets.dyte.io/logo-outlined.png" alt="Logo" width="120">
   </a>
