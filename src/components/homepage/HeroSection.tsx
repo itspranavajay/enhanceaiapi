@@ -44,7 +44,7 @@ function HeroProduct({
   beta,
 }: (typeof PRODUCTS)[0]) {
   return (
-    <Link
+    <div
       style={{
         borderWidth: '1px',
       }}
@@ -71,7 +71,7 @@ function HeroProduct({
         alt={title}
         className="mt-1 w-full transition-transform group-hover:scale-110"
       />
-    </Link>
+    </div>
   );
 }
 
