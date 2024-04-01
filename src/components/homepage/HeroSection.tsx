@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Link from '@docusaurus/Link';
 
 import ThemedImage from '@theme/ThemedImage';
@@ -41,7 +41,6 @@ const PRODUCTS = [
 function HeroProduct({
   link,
   title,
-  icon: Icon,
   text,
   lightImage,
   darkImage,
