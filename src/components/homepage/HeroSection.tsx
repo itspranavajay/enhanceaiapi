@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import Link from '@docusaurus/Link';
 
 import ThemedImage from '@theme/ThemedImage';
