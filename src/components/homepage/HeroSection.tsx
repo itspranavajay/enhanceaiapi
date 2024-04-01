@@ -11,37 +11,36 @@ import clsx from 'clsx';
 
 const PRODUCTS = [
   {
-    title: 'Live Video',
-    link: '/guides/live-video/intro-video-conf',
-    icon: VideoRegular,
-    lightImage: '/static/landing-page/hero/video-graphic.png',
-    darkImage: '/static/landing-page/hero/video-graphic-dark.png',
-    text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
+    title: 'Text to Image',
+    link: '/guides/text-to-image/intro-text-to-image',
+    icon: TextToImageRegular, // You'll need to create or find an appropriate icon
+    lightImage: '/static/landing-page/hero/text-to-image-graphic.png',
+    darkImage: '/static/landing-page/hero/text-to-image-graphic-dark.png',
+    text: 'Generate images from text descriptions using our AI platform. Perfect for creating art, designing products, and more.',
   },
   {
-    title: 'Voice',
-    link: '/guides/voice-conf/intro-voice-conf',
-    icon: MicRegular,
-    lightImage: '/static/landing-page/hero/voice-graphic.png',
-    darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
+    title: 'Image to Image',
+    link: '/guides/image-to-image/intro-image-to-image',
+    icon: ImageToImageRegular, // You'll need to create or find an appropriate icon
+    lightImage: '/static/landing-page/hero/image-to-image-graphic.png',
+    darkImage: '/static/landing-page/hero/image-to-image-graphic-dark.png',
+    text: 'Transform images using our AI platform. Ideal for style transfer, object detection, and other image processing tasks.',
   },
   {
-    title: 'Interactive Live Streaming',
-    link: '/guides/livestream/livestream-overview',
-    icon: LiveRegular,
-    lightImage: '/static/landing-page/hero/livestream-graphic.png',
-    darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
-    text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
+    title: 'Inpainting',
+    link: '/guides/inpainting/intro-inpainting',
+    icon: InpaintingRegular, // You'll need to create or find an appropriate icon
+    lightImage: '/static/landing-page/hero/inpainting-graphic.png',
+    darkImage: '/static/landing-page/hero/inpainting-graphic-dark.png',
+    text: 'Fill in missing or corrupted parts of an image using our AI platform. Great for restoring old photos, removing unwanted objects, and more.',
   },
   {
-    title: 'Chat',
-    beta: true,
-    link: '/guides/realtime-chat/intro-chat',
-    icon: ChatMultipleRegular,
-    lightImage: '/static/landing-page/hero/chat-graphic.png',
-    darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
-    text: 'Add real-time chat functionalities to your application. Be it customer support, social networks or any other colloboration use case, we got you covered',
+    title: 'Upscale',
+    link: '/guides/upscale/intro-upscale',
+    icon: UpscaleRegular, // You'll need to create or find an appropriate icon
+    lightImage: '/static/landing-page/hero/upscale-graphic.png',
+    darkImage: '/static/landing-page/hero/upscale-graphic-dark.png',
+    text: 'Increase the resolution of your images without losing quality using our AI platform. Perfect for enhancing photos, creating high-resolution prints, and more.',
   },
 ];
 
@@ -93,11 +92,11 @@ export default function HeroSection() {
       <section className="noise-bg no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-            Build with Dyte
+            Build with EnhanceAI
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At Dyte, we're building the future of real-time communication.
-            Integrate programmable, and easily customizable live video and voice
+            At EnhanceAI, we're building the future of image generation and processing.
+            Integrate programmable, and easily customizable image generation and processing
             into your web, mobile, and desktop applications with just a few
             lines of code.
           </p>
