@@ -1,19 +1,13 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import {
-  ChatMultipleRegular,
-  LiveRegular,
-  MicRegular,
-  VideoRegular,
-} from '@fluentui/react-icons';
+
 import ThemedImage from '@theme/ThemedImage';
 import clsx from 'clsx';
 
 const PRODUCTS = [
   {
     title: 'Text to Image',
-    link: '/guides/text-to-image/intro-text-to-image',
-    icon: TextToImageRegular, // You'll need to create or find an appropriate icon
+    link: '/guides/text-to-image/intro-text-to-image', // You'll need to create or find an appropriate icon
     lightImage: '/static/landing-page/hero/text-to-image-graphic.png',
     darkImage: '/static/landing-page/hero/text-to-image-graphic-dark.png',
     text: 'Generate images from text descriptions using our AI platform. Perfect for creating art, designing products, and more.',
@@ -21,7 +15,7 @@ const PRODUCTS = [
   {
     title: 'Image to Image',
     link: '/guides/image-to-image/intro-image-to-image',
-    icon: ImageToImageRegular, // You'll need to create or find an appropriate icon
+    // You'll need to create or find an appropriate icon
     lightImage: '/static/landing-page/hero/image-to-image-graphic.png',
     darkImage: '/static/landing-page/hero/image-to-image-graphic-dark.png',
     text: 'Transform images using our AI platform. Ideal for style transfer, object detection, and other image processing tasks.',
@@ -29,7 +23,7 @@ const PRODUCTS = [
   {
     title: 'Inpainting',
     link: '/guides/inpainting/intro-inpainting',
-    icon: InpaintingRegular, // You'll need to create or find an appropriate icon
+    // You'll need to create or find an appropriate icon
     lightImage: '/static/landing-page/hero/inpainting-graphic.png',
     darkImage: '/static/landing-page/hero/inpainting-graphic-dark.png',
     text: 'Fill in missing or corrupted parts of an image using our AI platform. Great for restoring old photos, removing unwanted objects, and more.',
@@ -37,7 +31,7 @@ const PRODUCTS = [
   {
     title: 'Upscale',
     link: '/guides/upscale/intro-upscale',
-    icon: UpscaleRegular, // You'll need to create or find an appropriate icon
+    // You'll need to create or find an appropriate icon
     lightImage: '/static/landing-page/hero/upscale-graphic.png',
     darkImage: '/static/landing-page/hero/upscale-graphic-dark.png',
     text: 'Increase the resolution of your images without losing quality using our AI platform. Perfect for enhancing photos, creating high-resolution prints, and more.',
