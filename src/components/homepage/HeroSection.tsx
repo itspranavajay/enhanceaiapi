@@ -62,6 +62,7 @@ function HeroProduct({
           </div>
         </h3>
         <p className="mb-0 text-sm text-zinc-400">{text}</p>
+      </div>
     </div>
   );
 }
