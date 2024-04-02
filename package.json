@@ -6,7 +6,7 @@
     "postinstall": "patch-package",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "dev": "npm run open-browser && docusaurus start",
+    "dev": "docusaurus start",
     "open-browser": "open http://localhost:3000",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
