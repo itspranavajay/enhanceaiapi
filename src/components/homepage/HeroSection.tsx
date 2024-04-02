@@ -62,10 +62,6 @@ function HeroProduct({
           </div>
         </h3>
         <p className="mb-0 text-sm text-zinc-400">{text}</p>
-      </div>
-        alt={title}
-        className="mt-1 w-full transition-transform group-hover:scale-110"
-      />
     </div>
   );
 }
